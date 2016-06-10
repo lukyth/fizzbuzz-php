@@ -1,0 +1,13 @@
+{
+    "name": "lukyth/fizzbuzz",
+    "authors": [
+        {
+            "name": "Kanitkorn S.",
+            "email": "k.sujautra@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5.4"
+    }
+}
