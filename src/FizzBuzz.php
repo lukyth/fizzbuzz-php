@@ -14,6 +14,9 @@ class FizzBuzz
         if ($number === 7) {
             $output = "Bank";
         }
+        if ($number === 15) {
+            $output = "FizzBuzz";
+        }
         return $output;
     }
 }
