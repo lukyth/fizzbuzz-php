@@ -66,7 +66,7 @@ class FizzBuzzTest extends PHPUnit_Framework_TestCase
         $actual = $this->fizzbuzz->say(15);
         $this->assertEquals($expected, $actual, "Put 15 but not say FizzBuzz");
     }
-    
+
     public function test_put_30_say_FizzBuzz()
     {
         $expected = "FizzBuzz";
