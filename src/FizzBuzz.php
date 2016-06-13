@@ -12,9 +12,6 @@ class FizzBuzz
         } else if ($number % 5 === 0) {
             $output = "Buzz";
         }
-        if ($number === 7) {
-            $output = "Bank";
-        }
         return $output;
     }
 }
