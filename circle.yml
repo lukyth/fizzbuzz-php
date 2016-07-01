@@ -3,3 +3,7 @@ machine:
     Asia/Bangkok
   php:
     version: 7.0.7
+test:
+  override:
+    - mkdir -p $CIRCLE_TEST_REPORTS/phpunit
+    - phpunit --log-junit $CIRCLE_TEST_REPORTS/phpunit/junit.xml tests
